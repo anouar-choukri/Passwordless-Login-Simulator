@@ -49,7 +49,7 @@ A passwordless authentication system using ECDSA and a challenge-response mechan
 ### Backend
   1. Clone repository:
      ```bash
-     git clone https://github.com/your-username/passwordless-login-simulator.git
+     git clone https://github.com/anouar-choukri/passwordless-login-simulator.git
      cd passwordless-login-simulator/backend
      ```
   3. Install dependencies:

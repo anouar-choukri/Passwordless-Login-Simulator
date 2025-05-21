@@ -44,7 +44,7 @@ A passwordless authentication system using ECDSA and a challenge-response mechan
 
 ## Installation & Setup
 
-# Backend
+### Backend
   1. Clone repository:
      ```bash
      git clone https://github.com/your-username/passwordless-login-simulator.git
@@ -60,7 +60,7 @@ A passwordless authentication system using ECDSA and a challenge-response mechan
      ```
    The backend runs on http://localhost:3000.
 
-# Frontend
+### Frontend
   1. Open a new terminal and navigate to the frontend folder:
      ```bash
      cd ../frontend

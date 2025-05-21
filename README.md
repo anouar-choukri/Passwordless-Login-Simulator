@@ -2,14 +2,14 @@
 
 A passwordless authentication system using ECDSA and a challenge-response mechanism, inspired by WebAuthn. Built with an Angular frontend and a Node.js/Express backend to demonstrate secure, password-free login using public-key cryptography.
 
-##Features
+## Features
 
 - Passwordless Registration: Client-side ECDSA key pair generation in the browser.
 - Challenge-Response Login: Secure one-time challenges with ECDSA signature verification.
 - Replay Protection: Each random nonce is single-use.
 - In-Memory Storage: Simple Map storage for users and challenges (demo purpose).
 
-##Architecture
+## Architecture
 
 +-----------+          +---------------+          +-----------+
 | Angular   |  HTTP    |  Express API  |  Crypto  | Node.js   |
@@ -30,52 +30,52 @@ A passwordless authentication system using ECDSA and a challenge-response mechan
      |                        |                         |
      +                        +                         +
 
-##Tech Stack
+## Tech Stack
 
 - Frontend: Angular 17+, TypeScript, Web Crypto API
 - Backend: Node.js, Express, built-in Crypto module
 - Format: ECDSA P-256 (secp256r1), SHA-256
 
-##Prerequisites
+## Prerequisites
 
 - Node.js v18+
 - npm v8+
 - Angular CLI v17+
 
-##Installation & Setup
+## Installation & Setup
 
-#Backend
+# Backend
   1. Clone repository:
      ```bash
-    git clone https://github.com/your-username/passwordless-login-simulator.git
-    cd passwordless-login-simulator/backend
-    ```
+     git clone https://github.com/your-username/passwordless-login-simulator.git
+     cd passwordless-login-simulator/backend
+     ```
   3. Install dependencies:
      ```bash
-    npm install
-    ```
+     npm install
+     ```
   5. Start server:
      ```bash
-    node index.js
-    ```
+     node index.js
+     ```
    The backend runs on http://localhost:3000.
 
-#Frontend
+# Frontend
   1. Open a new terminal and navigate to the frontend folder:
      ```bash
-    cd ../frontend
-    ```
+     cd ../frontend
+     ```
   3. Install dependencies:
      ```bash
-    npm install
-    ```
+     npm install
+     ```
   5. Serve the app:
      ```bash
-    ng serve
-    ```
-   The frontend runs on http://localhost:4200.
+     ng serve
+     ```
+     The frontend runs on http://localhost:4200.
 
-##Usage
+## Usage
 
   1. Register a new user:
      - Open http://localhost:4200

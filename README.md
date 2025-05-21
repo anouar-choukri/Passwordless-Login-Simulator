@@ -2,7 +2,7 @@
 
 A passwordless authentication system using ECDSA and a challenge-response mechanism, inspired by WebAuthn. Built with an Angular frontend and a Node.js/Express backend to demonstrate secure, password-free login using public-key cryptography.
 
-![Login screenshot](docs/screenshot.png)
+![Login screenshot](screenshot.png)
 
 ## Features
 

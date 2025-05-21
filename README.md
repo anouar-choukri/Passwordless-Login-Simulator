@@ -11,6 +11,7 @@ A passwordless authentication system using ECDSA and a challenge-response mechan
 
 ## Architecture
 
+```plaintext
 +-----------+          +---------------+          +-----------+
 | Angular   |  HTTP    |  Express API  |  Crypto  | Node.js   |
 | Frontend  |<-------->|  Backend      |<-------->| Crypto    |
@@ -29,6 +30,7 @@ A passwordless authentication system using ECDSA and a challenge-response mechan
      |                        | verify signature + nonce|
      |                        |                         |
      +                        +                         +
+```
 
 ## Tech Stack
 
